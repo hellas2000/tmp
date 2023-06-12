@@ -1,0 +1,507 @@
+Info 0.0005883: TMPELifecycle.Awake()
+Info 0.0028098: Loading translations: TrafficManager.Resources.Translations.Menu.csv
+Info 0.0051540: Loading translations: TrafficManager.Resources.Translations.Options.csv
+Info 0.0102473: Loading translations: TrafficManager.Resources.Translations.JunctionRestrictions.csv
+Info 0.0105555: Loading translations: TrafficManager.Resources.Translations.LaneRouting.csv
+Info 0.0112607: Loading translations: TrafficManager.Resources.Translations.ModConflicts.csv
+Info 0.0115836: Loading translations: TrafficManager.Resources.Translations.ParkingRestrictions.csv
+Info 0.0118619: Loading translations: TrafficManager.Resources.Translations.PrioritySigns.csv
+Info 0.0122052: Loading translations: TrafficManager.Resources.Translations.SpeedLimits.csv
+Info 0.0135436: Loading translations: TrafficManager.Resources.Translations.TrafficLights.csv
+Info 0.0150838: Loading translations: TrafficManager.Resources.Translations.VehicleRestrictions.csv
+Info 0.0154473: Loading translations: TrafficManager.Resources.Translations.Tutorials.csv
+Info 0.0185714: Loading translations: TrafficManager.Resources.Translations.Guide.csv
+Info 0.0191636: Loading translations: TrafficManager.Resources.Translations.AI_Citizen.csv
+Info 0.0194566: Loading translations: TrafficManager.Resources.Translations.AI_Car.csv
+Info 0.0200162: TM:PE 11.8.0.0 STABLE - Build 11.8.0.22350 STABLE compiled under C:SL 1.17.1-f2
+Info 0.0204971: Enabled TM:PE has GUID 3840ea9e-b187-428b-82c3-d62d3fd98134
+Info 0.0208219: Mono version: 2.0 (Visual Studio built mono)
+Info 0.0212227: Loading What's New changelogs...
+Info 0.0242193: Loading global config from file 'TMPE_GlobalConfig.xml'...
+Info 0.0326656: Global config loaded.
+Info 0.0351291: Writing global config to file 'TMPE_GlobalConfig.xml'...
+Info 0.0430256: Loaded 1 What's New changelogs
+Info 18.5997449: SavedGameOptions.Ensure() called
+Info 18.6000798: SavedGameOptions.Create() called
+Info 18.6003755: SavedGameOptions.Awake() called
+Info 18.6006799: TMPESettings.MakeSettings() - Adding UI to mod options tabs
+Info 18.6290182: SliderOption.Value: `GuiScale` changed to 100
+Info 18.6303807: SliderOption.Value: `GuiOpacity` changed to 75
+Info 18.6314583: SliderOption.Value: `OverlayOpacity` changed to 60
+Info 18.6324856: CheckboxOption.Value: `EnableTutorial` changed to True
+Info 18.6339543: CheckboxOption.PropagateTrueTo: `IgnoreDisabledMods` will propagate to `ScanForKnownIncompatibleModsAtStartup`
+Info 18.6351269: CheckboxOption.Value: `ScanForKnownIncompatibleModsAtStartup` changed to True
+Info 18.6360240: CheckboxOption.Value: `IgnoreDisabledMods` changed to True
+Info 18.6614571: CheckboxOption.PropagateTrueTo: `turnOnRedEnabled` will propagate to `junctionRestrictionsEnabled`
+Info 18.6618375: CheckboxOption.PropagateTrueTo: `allowEnterBlockedJunctions` will propagate to `junctionRestrictionsEnabled`
+Info 18.6619691: CheckboxOption.PropagateTrueTo: `allowUTurns` will propagate to `junctionRestrictionsEnabled`
+Info 18.6620863: CheckboxOption.PropagateTrueTo: `allowNearTurnOnRed` will propagate to `turnOnRedEnabled`
+Info 18.6622069: CheckboxOption.PropagateTrueTo: `allowFarTurnOnRed` will propagate to `allowNearTurnOnRed`
+Info 18.6623303: CheckboxOption.PropagateTrueTo: `allowLaneChangesWhileGoingStraight` will propagate to `junctionRestrictionsEnabled`
+Info 18.6624432: CheckboxOption.PropagateTrueTo: `trafficLightPriorityRules` will propagate to `prioritySignsEnabled`
+Info 18.6625609: CheckboxOption.PropagateTrueTo: `trafficLightPriorityRules` will propagate to `timedLightsEnabled`
+Info 18.6686480: CheckboxOption.PropagateTrueTo: `banRegularTrafficOnBusLanes` will propagate to `vehicleRestrictionsEnabled`
+Info 18.6995781: CheckboxOption.PropagateTrueTo: `PriorityRoad_CrossMainR` will propagate to `junctionRestrictionsEnabled`
+Info 18.6997441: CheckboxOption.PropagateTrueTo: `PriorityRoad_EnterBlockedYeild` will propagate to `prioritySignsEnabled`
+Info 18.6998656: CheckboxOption.PropagateTrueTo: `PriorityRoad_EnterBlockedYeild` will propagate to `junctionRestrictionsEnabled`
+Info 18.7000192: CheckboxOption.PropagateTrueTo: `PriorityRoad_StopAtEntry` will propagate to `prioritySignsEnabled`
+Info 18.7033243: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_NoCrossMainR` will propagate to `junctionRestrictionsEnabled`
+Info 18.7034624: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_NoCrossYieldR` will propagate to `junctionRestrictionsEnabled`
+Info 18.7035881: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_StayInLaneMainR` will propagate to `laneConnectorEnabled`
+Info 18.7037044: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_StayInLaneNearRabout` will propagate to `laneConnectorEnabled`
+Info 18.7038186: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_PrioritySigns` will propagate to `prioritySignsEnabled`
+Info 18.7039350: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_KeepClearYieldR` will propagate to `prioritySignsEnabled`
+Info 18.7040488: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_KeepClearYieldR` will propagate to `junctionRestrictionsEnabled`
+Info 18.7041625: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_RealisticSpeedLimits` will propagate to `customSpeedLimitsEnabled`
+Info 18.7042794: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_ParkingBanMainR` will propagate to `parkingRestrictionsEnabled`
+Info 18.7043963: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_ParkingBanYieldR` will propagate to `parkingRestrictionsEnabled`
+Info 18.7145945: CheckboxOption.PropagateTrueTo: `prioritySignsOverlay` will propagate to `prioritySignsEnabled`
+Info 18.7147434: CheckboxOption.PropagateTrueTo: `timedLightsOverlay` will propagate to `timedLightsEnabled`
+Info 18.7148658: CheckboxOption.PropagateTrueTo: `speedLimitsOverlay` will propagate to `customSpeedLimitsEnabled`
+Info 18.7149909: CheckboxOption.PropagateTrueTo: `vehicleRestrictionsOverlay` will propagate to `vehicleRestrictionsEnabled`
+Info 18.7151935: CheckboxOption.PropagateTrueTo: `parkingRestrictionsOverlay` will propagate to `parkingRestrictionsEnabled`
+Info 18.7153095: CheckboxOption.PropagateTrueTo: `junctionRestrictionsOverlay` will propagate to `junctionRestrictionsEnabled`
+Info 18.7154269: CheckboxOption.PropagateTrueTo: `connectedLanesOverlay` will propagate to `laneConnectorEnabled`
+Info 23.2902742: TrafficManager.Resources.incompatible_mods.txt contains 90 entries
+Info 23.2919287: TM:PE Incompatible Mod Checker (True,True):
+
+    (local)      Hard Mode
+  * (local)      Unlimited Money
+  * (local)      Unlimited Oil And Ore
+  * (local)      Unlimited Soil
+  * (local)      Unlock All
+  * (local)      Bubbly Vehicle Capacity
+  * (local)      Building Capacitee
+  * 787611845    Prop Snapping
+  * 611254368    Environment Changer
+  * 515489008    Extra Train Station Tracks
+  * 2805340879   Transfer Controller 0.7.8
+  * 2862940316   Extra Landscaping Tools
+  * 593588108    Prop & Tree Anarchy
+  * 2346565561   Smarter Firefighters: Improved AI
+  * 2698595602   Network Skins
+  * 1403136223   Control Building Level Up
+  * 2077102792   AD Cloud Replacer
+  * 2851906117   8K AD Clouds Pack 01
+  * 2864913941   Surface Painter temporary fix
+  * 1777173984   Broken Node Detector 0.8.0
+  * 2862973068   Advanced Stop Selection 2.1.0.1
+  * 2823044507   You're Fired!
+  * 2818311563   CallAgain v1.6.2
+  * 405791507    Chirpy Exterminator
+  * 2750573012   Disable telemetry 1.0.0
+  * 2778750497   ACME 0.6.4
+  * 2764243667   First Person Camera v2.1
+  * 2740907672   Reversible Tram AI 1.0
+  * 2629141193   Upgrade Untouchable 1.1
+  * 564141599    No Seagulls
+  * 2520964831   Bus-Only Road Enabler
+  * 523818382    Force Level Up
+  * 2040656402   Harmony 2.2.2-0
+  * 576997275    Remove Need For Pipes
+  * 686588890    Automatic Emptying: Extended
+  * 639486063    Automatic Bulldoze v2
+  * 530771650    Prefab Hook
+  * 523824395    Clouds & Fog Toggler
+  * 405810376    All Areas purchaseable
+  * 458519223    Unlock All + Wonders & Landmarks
+  * 407055819    Enable Achievements
+  * 498386331    CrossTheLine
+  * 446764406    No Border Limit Camera
+  * 572888650    Remove Need For Power Lines
+  * 553319260    Hide Border Line
+  * 433557907    District UI Tweaks
+  * 550479679    Profitable Tourism Mod
+  * 2405917899   RON - the network replacer 1.1.0.1
+  * 2858591409   Loading Screen Mod Revisited 1.1.7.1
+  * 2389414419   Zoning Adjuster 1.6.2
+  * 1440928803   Parallel Road Tool 3.0.4
+  * 1619685021   Move It 2.10.5
+  * 1656549865   Rebuild It!
+  * 1721492498   Optimised Outside Connections
+  * 2133885971   Find It! 2.9.5
+  * 2172488844   Picker 4.0.1
+  * 2472062376   Node Controller Renewal 3.5.0.2
+  * 2862881785   Network Anarchy 3.2.2
+  * 1637663252   TM:PE 11.8.0.0 STABLE
+
+Info 23.2920970: Scan complete: 0 incompatible mod(s) found
+Info 23.2923928: Expected C:SL v1.17.1-f2 - Actual C:SL v1.17.1-f2
+Info 25.9529341: SavedGameOptions.Release() called
+Info 25.9590095: TMPE patches in [me.tmpe.preload] uninstalled.
+Info 25.9613381: preload patches installed successfully
+Info 25.9617451: Preloading Managers
+Info 25.9621006: CustomPathManager.Initialize() called.
+Info 25.9622561: CustomPathManager.Initialize() CustomPathManager not found, creating new instance.
+Info 25.9739393: TMPE Path-finding patches installed successfully
+Info 26.0190506: Pathfinder logic: Using CustomPathFind_Current
+Info 26.0197561: Pathfinder logic: Using CustomPathFind_Current
+Info 26.0203465: Pathfinder logic: Using CustomPathFind_Current
+Info 26.0990238: CustomPathManager.WaitForAllPaths()
+Info 26.7484073: CustomPathManager.WaitForAllPaths()
+Info 58.8230987: AssetDataExtension.OnAssetLoadedImpl(): extracted data for TMPE_Records
+Info 58.8609874: AssetDataExtension.OnAssetLoadedImpl(): extracted data for TMPE_Records
+Info 58.8730611: AssetDataExtension.OnAssetLoadedImpl(): extracted data for TMPE_Records
+Info 58.9357404: AssetDataExtension.OnAssetLoadedImpl(): extracted data for TMPE_Records
+Info 58.9683973: AssetDataExtension.OnAssetLoadedImpl(): extracted data for TMPE_Records
+Info 58.9792745: AssetDataExtension.OnAssetLoadedImpl(): extracted data for TMPE_Records
+Info 73.2031110: SavedGameOptions.Ensure() called
+Info 73.2034707: SavedGameOptions.Create() called
+Info 73.2036026: SavedGameOptions.Awake() called
+Info 73.2037293: TMPESettings.MakeSettings() - Adding UI to mod options tabs
+Info 84.8350714: Loading Traffic Manager: PE Data
+Info 84.8352549: Initializing flags
+Info 84.8379489: OnBeforeLoadData: ExtNodeManager
+Info 84.8381496: OnBeforeLoadData: ExtSegmentManager
+Info 84.9144200: OnBeforeLoadData: ExtSegmentEndManager
+Info 84.9146195: OnBeforeLoadData: GeometryManager
+Info 84.9152790: OnBeforeLoadData: AdvancedParkingManager
+Info 84.9154520: OnBeforeLoadData: CustomSegmentLightsManager
+Info 84.9155930: OnBeforeLoadData: ExtBuildingManager
+Info 84.9159022: OnBeforeLoadData: ExtCitizenInstanceManager
+Info 84.9160966: OnBeforeLoadData: ExtCitizenManager
+Info 84.9162380: OnBeforeLoadData: ExtPathManager
+Info 84.9163720: OnBeforeLoadData: TurnOnRedManager
+Info 84.9314833: OnBeforeLoadData: LaneArrowManager
+Info 84.9317085: OnBeforeLoadData: LaneConnectionManager
+Info 84.9331381: OnBeforeLoadData: OptionsManager
+Info 84.9333335: SavedGameOptions.Ensure() called
+Info 84.9334701: OnBeforeLoadData: ParkingRestrictionsManager
+Info 84.9363041: OnBeforeLoadData: RoutingManager
+Info 84.9365023: OnBeforeLoadData: SpeedLimitManager
+Info 84.9442103: OnBeforeLoadData: TrafficLightManager
+Info 84.9444072: OnBeforeLoadData: TrafficLightSimulationManager
+Info 84.9445613: OnBeforeLoadData: TrafficMeasurementManager
+Info 84.9447480: OnBeforeLoadData: TrafficPriorityManager
+Info 84.9448950: OnBeforeLoadData: UtilityManager
+Info 84.9450294: OnBeforeLoadData: VehicleRestrictionsManager
+Info 84.9451735: OnBeforeLoadData: ExtVehicleManager
+Info 84.9453109: OnBeforeLoadData: ExtLaneManager
+Info 84.9454453: OnBeforeLoadData: RoadSignThemeManager
+Info 84.9456108: OnBeforeLoadData: RoadUI
+Info 84.9457699: OnBeforeLoadData: TrafficLightTextures
+Info 84.9459157: OnBeforeLoadData: JunctionRestrictionsManager
+Info 84.9461050: Initialization done. Loading mod data now.
+Info 84.9467398: Loading VersionInfo Data! Length=424
+Info 84.9472333: Reading VersionInfo from config
+Info 84.9475775: Save game was created with TM:PE 11.8.0.22350 - Stable
+Info 84.9479161: Loading Data from New Load Routine! Length=8539
+Info 84.9609438: Loading State from Config
+Info 84.9613267: Loading 0 extended citizens
+Info 84.9618080: Loading 0 extended citizen instances
+Info 84.9619511: Priority segments data structure (old) undefined!
+Info 84.9624015: Loading 0 priority segments (new method)
+Info 84.9627520: Loading parking restrictions data. 0 elements
+Info 84.9631608: Loading lane vehicle restriction data. 1 elements
+Info 84.9667541: Loading 0 timed traffic lights (new method)
+Info 84.9677195: Loading junction traffic light data (old method)
+Info 84.9683052: Loading toggled traffic lights (new method)
+Info 84.9684668: Lane arrow data structure (old) undefined!
+Info 84.9687934: Loading lane arrow data (new method)
+Info 84.9702828: Loading 0 lane connections
+Info 84.9707294: Loading 0 lane connections
+Info 84.9708721: Loading 0 lane connections
+Info 84.9711722: Loading custom default speed limit data. 0 elements
+Info 84.9716274: Loading lane speed limit data. 0 elements
+Info 84.9723500: Loading junction restrictions. 0 elements
+Info 84.9729774: OptionsManager.LoadData: 61 bytes
+Info 84.9753999: CheckboxOption.Value: `relaxedBusses` changed to False
+Info 84.9756021: CheckboxOption.Value: `prioritySignsOverlay` changed to False
+Info 84.9757453: CheckboxOption.Value: `timedLightsOverlay` changed to False
+Info 84.9758856: CheckboxOption.Value: `speedLimitsOverlay` changed to False
+Info 84.9760255: CheckboxOption.Value: `vehicleRestrictionsOverlay` changed to False
+Info 84.9779297: CheckboxOption.Value: `connectedLanesOverlay` changed to False
+Info 84.9782017: CheckboxOption.Value: `junctionRestrictionsOverlay` changed to False
+Info 84.9794511: CheckboxOption.Value: `parkingRestrictionsOverlay` changed to False
+Info 84.9808061: OnLoadData completed successfully.
+Info 84.9809625: OnAfterLoadData: ExtNodeManager
+Info 84.9811245: OnAfterLoadData: ExtSegmentManager
+Info 84.9813594: ExtSegmentManager.OnAfterLoadData: Calculating Available lane arrows for 36864 extended segments...
+Info 84.9905110: ExtSegmentManager.OnAfterLoadData: Calculation finished.
+Info 84.9906709: OnAfterLoadData: ExtSegmentEndManager
+Info 84.9908359: OnAfterLoadData: GeometryManager
+Info 84.9909760: OnAfterLoadData: AdvancedParkingManager
+Info 84.9911238: OnAfterLoadData: CustomSegmentLightsManager
+Info 84.9912553: OnAfterLoadData: ExtBuildingManager
+Info 84.9913929: OnAfterLoadData: ExtCitizenInstanceManager
+Info 84.9915303: OnAfterLoadData: ExtCitizenManager
+Info 84.9916634: OnAfterLoadData: ExtPathManager
+Info 84.9917956: OnAfterLoadData: TurnOnRedManager
+Info 84.9919265: OnAfterLoadData: LaneArrowManager
+Info 85.0171286: OnAfterLoadData: LaneConnectionManager
+Info 85.0173425: OnAfterLoadData: OptionsManager
+Info 85.0176021: OptionsManger.OnAfterLoadData() checking for queued method calls
+Info 85.0177379: OnAfterLoadData: ParkingRestrictionsManager
+Info 85.0178807: OnAfterLoadData: RoutingManager
+Info 85.4228609: OnAfterLoadData: SpeedLimitManager
+Info 85.4230846: OnAfterLoadData: TrafficLightManager
+Info 85.4232418: OnAfterLoadData: TrafficLightSimulationManager
+Info 85.4234234: OnAfterLoadData: TrafficMeasurementManager
+Info 85.4236257: OnAfterLoadData: TrafficPriorityManager
+Info 85.4237788: OnAfterLoadData: UtilityManager
+Info 85.4239239: OnAfterLoadData: VehicleRestrictionsManager
+Info 85.4240706: OnAfterLoadData: ExtVehicleManager
+Info 85.4541549: OnAfterLoadData: ExtLaneManager
+Info 85.4543829: OnAfterLoadData: RoadSignThemeManager
+Info 85.4545381: OnAfterLoadData: RoadUI
+Info 85.4546806: OnAfterLoadData: TrafficLightTextures
+Info 85.4548201: OnAfterLoadData: JunctionRestrictionsManager
+Info 85.7171665: ReplaceMaxPosTranspiler: Another mod has already changed the values (probably 81-tiles).
+Info 85.8137993: TMPE patches installed successfully
+Info 114.9880298: TMPELifecycle.Load() called. Mode=LoadGame, UpdateMode=LoadGame, Scene=Game
+Info 114.9883059: Expected C:SL v1.17.1-f2 - Actual C:SL v1.17.1-f2
+Info 115.1178617: Notifying managers...
+Info 115.1180370: OnLevelLoading: ExtNodeManager
+Info 115.1182050: OnLevelLoading: ExtSegmentManager
+Info 115.1187166: OnLevelLoading: ExtSegmentEndManager
+Info 115.4445533: OnLevelLoading: GeometryManager
+Info 115.4447469: OnLevelLoading: AdvancedParkingManager
+Info 115.4448966: OnLevelLoading: CustomSegmentLightsManager
+Info 115.4450574: OnLevelLoading: ExtBuildingManager
+Info 115.4452329: OnLevelLoading: ExtCitizenInstanceManager
+Info 115.4453786: OnLevelLoading: ExtCitizenManager
+Info 115.4455180: OnLevelLoading: ExtPathManager
+Info 115.4456548: OnLevelLoading: TurnOnRedManager
+Info 115.4457952: OnLevelLoading: LaneArrowManager
+Info 115.4460135: OnLevelLoading: LaneConnectionManager
+Info 115.4461514: OnLevelLoading: OptionsManager
+Info 115.4462851: OnLevelLoading: ParkingRestrictionsManager
+Info 115.4464236: OnLevelLoading: RoutingManager
+Info 115.4465599: OnLevelLoading: SpeedLimitManager
+Info 115.4466923: OnLevelLoading: TrafficLightManager
+Info 115.4468222: OnLevelLoading: TrafficLightSimulationManager
+Info 115.4469605: OnLevelLoading: TrafficMeasurementManager
+Info 115.4470945: OnLevelLoading: TrafficPriorityManager
+Info 115.4472298: OnLevelLoading: UtilityManager
+Info 115.4473552: OnLevelLoading: VehicleRestrictionsManager
+Info 115.4474943: OnLevelLoading: ExtVehicleManager
+Info 115.4476395: OnLevelLoading: ExtLaneManager
+Info 115.4477661: OnLevelLoading: RoadSignThemeManager
+Info 115.7287485: OnLevelLoading: RoadUI
+Info 115.7560427: OnLevelLoading: TrafficLightTextures
+Info 115.7805878: OnLevelLoading: JunctionRestrictionsManager
+Info 115.8436405: OnLevelLoaded complete.
+Info 117.3159395: Initializing traffic manager tool...
+Info 117.3173860: TrafficManagerTool: Initialization running now.
+Info 117.3305122: TrafficManagerTool.InitializeSubTools()
+Info 117.3510055: TrafficManagerTool: Initialization completed.
+Info 117.3680906: Initializing traffic manager tool...
+Info 117.4770542: Setting main menu button position to [2270,1027]
+Info 148.8993247: CheckboxOption.Value: `relaxedBusses` changed to True
+Info 150.6147016: CheckboxOption.Value: `allowEnterBlockedJunctions` changed to True
+Info 150.6150127: OptionsManager.UpdateJunctionRestrictionsManager()
+Info 150.6702603: OptionsManager.ReinitialiseSubTools()
+Info 150.6704606: TrafficManagerTool.InitializeSubTools()
+Info 151.7694895: CheckboxOption.Value: `DedicatedTurningLanes` changed to True
+Info 151.7697828: OptionsManager.UpdateDedicatedTurningLanes()
+Info 151.7700262: UpdateDedicatedTurningLanePolicy(recalculateRoutings:True) was called.
+Info 157.0048067: CheckboxOption.Value: `highwayMergingRules` changed to True
+Info 157.0050723: OptionsManager.UpdateRoutingManager()
+Info 158.0729396: CheckboxOption.Value: `highwayMergingRules` changed to False
+Info 158.0731112: OptionsManager.UpdateRoutingManager()
+Info 159.6224191: CheckboxOption.Value: `highwayMergingRules` changed to True
+Info 159.6226203: OptionsManager.UpdateRoutingManager()
+Info 171.8014510: CheckboxOption.Value: `prioritySignsOverlay` changed to True
+Info 171.8016370: OptionsManager.ReinitialiseSubTools()
+Info 171.8017621: TrafficManagerTool.InitializeSubTools()
+Info 172.1692577: CheckboxOption.Value: `timedLightsOverlay` changed to True
+Info 172.1694282: OptionsManager.ReinitialiseSubTools()
+Info 172.1695591: TrafficManagerTool.InitializeSubTools()
+Info 172.5975896: CheckboxOption.Value: `speedLimitsOverlay` changed to True
+Info 172.5977673: OptionsManager.ReinitialiseSubTools()
+Info 172.5978974: TrafficManagerTool.InitializeSubTools()
+Info 173.0279382: CheckboxOption.Value: `showDefaultSpeedSubIcon` changed to True
+Info 173.3805813: CheckboxOption.Value: `vehicleRestrictionsOverlay` changed to True
+Info 173.3807492: OptionsManager.ReinitialiseSubTools()
+Info 173.3808740: TrafficManagerTool.InitializeSubTools()
+Info 173.8268356: CheckboxOption.Value: `parkingRestrictionsOverlay` changed to True
+Info 173.8270508: OptionsManager.ReinitialiseSubTools()
+Info 173.8271795: TrafficManagerTool.InitializeSubTools()
+Info 174.6824356: CheckboxOption.Value: `junctionRestrictionsOverlay` changed to True
+Info 174.6826095: OptionsManager.ReinitialiseSubTools()
+Info 174.6827309: TrafficManagerTool.InitializeSubTools()
+Info 175.1227729: CheckboxOption.Value: `connectedLanesOverlay` changed to True
+Info 175.1229527: OptionsManager.ReinitialiseSubTools()
+Info 175.1230776: TrafficManagerTool.InitializeSubTools()
+Info 1,832.7168541: CheckboxOption.Value: `relaxedBusses` changed to False
+Info 3,724.2917699: OnBeforeSaveData: ExtNodeManager
+Info 3,724.2920568: OnBeforeSaveData: ExtSegmentManager
+Info 3,724.2922114: OnBeforeSaveData: ExtSegmentEndManager
+Info 3,724.2923472: OnBeforeSaveData: GeometryManager
+Info 3,724.2924832: OnBeforeSaveData: AdvancedParkingManager
+Info 3,724.2926166: OnBeforeSaveData: CustomSegmentLightsManager
+Info 3,724.2927451: OnBeforeSaveData: ExtBuildingManager
+Info 3,724.2928782: OnBeforeSaveData: ExtCitizenInstanceManager
+Info 3,724.2930108: OnBeforeSaveData: ExtCitizenManager
+Info 3,724.2931400: OnBeforeSaveData: ExtPathManager
+Info 3,724.2932622: OnBeforeSaveData: TurnOnRedManager
+Info 3,724.2933966: OnBeforeSaveData: LaneArrowManager
+Info 3,724.3134691: OnBeforeSaveData: LaneConnectionManager
+Info 3,724.3136872: OnBeforeSaveData: OptionsManager
+Info 3,724.3138492: OnBeforeSaveData: ParkingRestrictionsManager
+Info 3,724.3139794: OnBeforeSaveData: RoutingManager
+Info 3,724.3141087: OnBeforeSaveData: SpeedLimitManager
+Info 3,724.3142320: OnBeforeSaveData: TrafficLightManager
+Info 3,724.3143622: OnBeforeSaveData: TrafficLightSimulationManager
+Info 3,724.3144839: OnBeforeSaveData: TrafficMeasurementManager
+Info 3,724.3146097: OnBeforeSaveData: TrafficPriorityManager
+Info 3,724.3147356: OnBeforeSaveData: UtilityManager
+Info 3,724.3148571: OnBeforeSaveData: VehicleRestrictionsManager
+Info 3,724.3149798: OnBeforeSaveData: ExtVehicleManager
+Info 3,724.3151040: OnBeforeSaveData: ExtLaneManager
+Info 3,724.3152309: OnBeforeSaveData: RoadSignThemeManager
+Info 3,724.3153548: OnBeforeSaveData: RoadUI
+Info 3,724.3154799: OnBeforeSaveData: TrafficLightTextures
+Info 3,724.3156040: OnBeforeSaveData: JunctionRestrictionsManager
+Info 3,724.3157374: Saving Mod Data.
+Trace 3,724.3368872: Saving lane vehicle restriction: laneid=166582 vehicleType=Taxi, NonTransportRoadVehicle
+Trace 3,724.3370765: Saving lane vehicle restriction: laneid=110996 vehicleType=Taxi, NonTransportRoadVehicle
+Trace 3,724.3372265: Saving lane vehicle restriction: laneid=160936 vehicleType=PassengerCar, Bus, Taxi, Service, Emergency
+Trace 3,724.3373618: Saving lane vehicle restriction: laneid=150415 vehicleType=Taxi, NonTransportRoadVehicle
+Trace 3,724.3374949: Saving lane vehicle restriction: laneid=178482 vehicleType=Taxi, NonTransportRoadVehicle
+Info 3,724.3403673: Version data byte length 424
+Info 3,724.3495823: Save data byte length 10133
+Info 3,724.3500403: OnAfterSaveData: JunctionRestrictionsManager
+Info 3,724.3502099: OnAfterSaveData: TrafficLightTextures
+Info 3,724.3503566: OnAfterSaveData: RoadUI
+Info 3,724.3505180: OnAfterSaveData: RoadSignThemeManager
+Info 3,724.3506547: OnAfterSaveData: ExtLaneManager
+Info 3,724.3507835: OnAfterSaveData: ExtVehicleManager
+Info 3,724.3509134: OnAfterSaveData: VehicleRestrictionsManager
+Info 3,724.3510405: OnAfterSaveData: UtilityManager
+Info 3,724.3511668: OnAfterSaveData: TrafficPriorityManager
+Info 3,724.3512948: OnAfterSaveData: TrafficMeasurementManager
+Info 3,724.3514314: OnAfterSaveData: TrafficLightSimulationManager
+Info 3,724.3515768: OnAfterSaveData: TrafficLightManager
+Info 3,724.3517123: OnAfterSaveData: SpeedLimitManager
+Info 3,724.3518470: OnAfterSaveData: RoutingManager
+Info 3,724.3519799: OnAfterSaveData: ParkingRestrictionsManager
+Info 3,724.3521167: OnAfterSaveData: OptionsManager
+Info 3,724.3522468: OnAfterSaveData: LaneConnectionManager
+Info 3,724.3523777: OnAfterSaveData: LaneArrowManager
+Info 3,724.3525465: OnAfterSaveData: TurnOnRedManager
+Info 3,724.3526778: OnAfterSaveData: ExtPathManager
+Info 3,724.3528080: OnAfterSaveData: ExtCitizenManager
+Info 3,724.3529366: OnAfterSaveData: ExtCitizenInstanceManager
+Info 3,724.3530625: OnAfterSaveData: ExtBuildingManager
+Info 3,724.3531877: OnAfterSaveData: CustomSegmentLightsManager
+Info 3,724.3533152: OnAfterSaveData: AdvancedParkingManager
+Info 3,724.3534450: OnAfterSaveData: GeometryManager
+Info 3,724.3535707: OnAfterSaveData: ExtSegmentEndManager
+Info 3,724.3536966: OnAfterSaveData: ExtSegmentManager
+Info 3,724.3538171: OnAfterSaveData: ExtNodeManager
+Info 3,724.9645596: CustomPathManager.WaitForAllPaths()
+Info 4,237.0514849: CheckboxOption.Value: `relaxedBusses` changed to True
+Info 4,264.9263606: CheckboxOption.Value: `relaxedBusses` changed to False
+Info 4,496.6775050: OnBeforeSaveData: ExtNodeManager
+Info 4,496.6776879: OnBeforeSaveData: ExtSegmentManager
+Info 4,496.6778193: OnBeforeSaveData: ExtSegmentEndManager
+Info 4,496.6779461: OnBeforeSaveData: GeometryManager
+Info 4,496.6780669: OnBeforeSaveData: AdvancedParkingManager
+Info 4,496.6781810: OnBeforeSaveData: CustomSegmentLightsManager
+Info 4,496.6782930: OnBeforeSaveData: ExtBuildingManager
+Info 4,496.6784072: OnBeforeSaveData: ExtCitizenInstanceManager
+Info 4,496.6785269: OnBeforeSaveData: ExtCitizenManager
+Info 4,496.6786403: OnBeforeSaveData: ExtPathManager
+Info 4,496.6787531: OnBeforeSaveData: TurnOnRedManager
+Info 4,496.6788706: OnBeforeSaveData: LaneArrowManager
+Info 4,496.6969224: OnBeforeSaveData: LaneConnectionManager
+Info 4,496.6970985: OnBeforeSaveData: OptionsManager
+Info 4,496.6973117: OnBeforeSaveData: ParkingRestrictionsManager
+Info 4,496.6975207: OnBeforeSaveData: RoutingManager
+Info 4,496.6977311: OnBeforeSaveData: SpeedLimitManager
+Info 4,496.6979217: OnBeforeSaveData: TrafficLightManager
+Info 4,496.6980664: OnBeforeSaveData: TrafficLightSimulationManager
+Info 4,496.6982588: OnBeforeSaveData: TrafficMeasurementManager
+Info 4,496.6983848: OnBeforeSaveData: TrafficPriorityManager
+Info 4,496.6985148: OnBeforeSaveData: UtilityManager
+Info 4,496.6986571: OnBeforeSaveData: VehicleRestrictionsManager
+Info 4,496.6987965: OnBeforeSaveData: ExtVehicleManager
+Info 4,496.6989185: OnBeforeSaveData: ExtLaneManager
+Info 4,496.6990421: OnBeforeSaveData: RoadSignThemeManager
+Info 4,496.6991593: OnBeforeSaveData: RoadUI
+Info 4,496.6992787: OnBeforeSaveData: TrafficLightTextures
+Info 4,496.6994428: OnBeforeSaveData: JunctionRestrictionsManager
+Info 4,496.6995826: Saving Mod Data.
+Trace 4,496.7117624: Saving lane vehicle restriction: laneid=166582 vehicleType=Taxi, NonTransportRoadVehicle
+Trace 4,496.7119275: Saving lane vehicle restriction: laneid=110996 vehicleType=Taxi, NonTransportRoadVehicle
+Trace 4,496.7120520: Saving lane vehicle restriction: laneid=160936 vehicleType=PassengerCar, Bus, Taxi, Service, Emergency
+Trace 4,496.7121784: Saving lane vehicle restriction: laneid=150415 vehicleType=Taxi, NonTransportRoadVehicle
+Trace 4,496.7122989: Saving lane vehicle restriction: laneid=178482 vehicleType=Taxi, NonTransportRoadVehicle
+Info 4,496.7127210: Version data byte length 424
+Info 4,496.7131208: Save data byte length 10287
+Info 4,496.7132562: OnAfterSaveData: JunctionRestrictionsManager
+Info 4,496.7133730: OnAfterSaveData: TrafficLightTextures
+Info 4,496.7134901: OnAfterSaveData: RoadUI
+Info 4,496.7136114: OnAfterSaveData: RoadSignThemeManager
+Info 4,496.7137250: OnAfterSaveData: ExtLaneManager
+Info 4,496.7138395: OnAfterSaveData: ExtVehicleManager
+Info 4,496.7139555: OnAfterSaveData: VehicleRestrictionsManager
+Info 4,496.7140729: OnAfterSaveData: UtilityManager
+Info 4,496.7141900: OnAfterSaveData: TrafficPriorityManager
+Info 4,496.7143048: OnAfterSaveData: TrafficMeasurementManager
+Info 4,496.7144214: OnAfterSaveData: TrafficLightSimulationManager
+Info 4,496.7145351: OnAfterSaveData: TrafficLightManager
+Info 4,496.7146929: OnAfterSaveData: SpeedLimitManager
+Info 4,496.7148279: OnAfterSaveData: RoutingManager
+Info 4,496.7149926: OnAfterSaveData: ParkingRestrictionsManager
+Info 4,496.7151147: OnAfterSaveData: OptionsManager
+Info 4,496.7152337: OnAfterSaveData: LaneConnectionManager
+Info 4,496.7153484: OnAfterSaveData: LaneArrowManager
+Info 4,496.7154647: OnAfterSaveData: TurnOnRedManager
+Info 4,496.7155864: OnAfterSaveData: ExtPathManager
+Info 4,496.7157041: OnAfterSaveData: ExtCitizenManager
+Info 4,496.7158167: OnAfterSaveData: ExtCitizenInstanceManager
+Info 4,496.7159291: OnAfterSaveData: ExtBuildingManager
+Info 4,496.7160428: OnAfterSaveData: CustomSegmentLightsManager
+Info 4,496.7161574: OnAfterSaveData: AdvancedParkingManager
+Info 4,496.7162791: OnAfterSaveData: GeometryManager
+Info 4,496.7163936: OnAfterSaveData: ExtSegmentEndManager
+Info 4,496.7165077: OnAfterSaveData: ExtSegmentManager
+Info 4,496.7166214: OnAfterSaveData: ExtNodeManager
+Info 4,497.3020956: CustomPathManager.WaitForAllPaths()
+Info 4,604.9672351: SavedGameOptions.Release() called
+Info 4,604.9701893: OnLevelUnloading: JunctionRestrictionsManager
+Info 4,604.9715867: OnLevelUnloading: TrafficLightTextures
+Info 4,604.9718809: OnLevelUnloading: RoadUI
+Info 4,604.9726273: OnLevelUnloading: RoadSignThemeManager
+Info 4,604.9757329: OnLevelUnloading: ExtLaneManager
+Info 4,604.9765684: OnLevelUnloading: ExtVehicleManager
+Info 4,604.9802500: OnLevelUnloading: VehicleRestrictionsManager
+Info 4,604.9804511: OnLevelUnloading: UtilityManager
+Info 4,604.9806075: OnLevelUnloading: TrafficPriorityManager
+Info 4,604.9834043: OnLevelUnloading: TrafficMeasurementManager
+Info 4,604.9841657: OnLevelUnloading: TrafficLightSimulationManager
+Info 4,604.9848688: OnLevelUnloading: TrafficLightManager
+Info 4,604.9850091: OnLevelUnloading: SpeedLimitManager
+Info 4,604.9856320: OnLevelUnloading: RoutingManager
+Info 4,604.9857918: OnLevelUnloading: ParkingRestrictionsManager
+Info 4,604.9859324: OnLevelUnloading: OptionsManager
+Info 4,604.9860579: OnLevelUnloading: LaneConnectionManager
+Info 4,604.9862587: OnLevelUnloading: LaneArrowManager
+Info 4,604.9863889: OnLevelUnloading: TurnOnRedManager
+Info 4,604.9868510: OnLevelUnloading: ExtPathManager
+Info 4,604.9869841: OnLevelUnloading: ExtCitizenManager
+Info 4,605.0016441: OnLevelUnloading: ExtCitizenInstanceManager
+Info 4,605.0024243: OnLevelUnloading: ExtBuildingManager
+Info 4,605.0036055: OnLevelUnloading: CustomSegmentLightsManager
+Info 4,605.0038134: OnLevelUnloading: AdvancedParkingManager
+Info 4,605.0039821: OnLevelUnloading: GeometryManager
+Info 4,605.0041097: OnLevelUnloading: ExtSegmentEndManager
+Info 4,605.0051781: OnLevelUnloading: ExtSegmentManager
+Info 4,605.0055805: OnLevelUnloading: ExtNodeManager
+Info 4,605.0354794: Removing Controls from UI.
+Info 4,605.0395401: ModUI.DisableTool: CurrentTool is not traffic manager tool!
+Info 4,605.0396876: Removing Traffic Manager Tool.
+Info 4,605.2054754: ReplaceMaxPosTranspiler: Another mod has already changed the values (probably 81-tiles).
+Info 4,605.2598465: TMPE patches in [me.tmpe] uninstalled.
+Info 4,605.4033916: TrafficManagerTool.OnDestroy() called
+Info 4,605.8381373: CustomPathManager.WaitForAllPaths()
+Info 4,613.6614751: CustomPathManager.WaitForAllPaths()
+Info 4,613.6738993: TMPE patches in [me.tmpe.pathfinding] uninstalled.
+Info 4,613.6740796: Should be stock: PathManager
+Info 4,613.6749898: Destroing CustomPathFind
+Info 4,613.6751293: Destroing CustomPathFind
+Info 4,613.6752953: Destroing CustomPathFind
+Info 4,633.2742910: TMPELifecycle.OnDestroy()
+Info 4,633.2811367: TMPE patches in [me.tmpe.preload] uninstalled.
